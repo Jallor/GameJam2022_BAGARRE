@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ff457d083ad67e541826e81b46397a4c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TestTrails_02: {fileID: 2800000, guid: e0d52a69b3b635448b946f015bfe436c, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

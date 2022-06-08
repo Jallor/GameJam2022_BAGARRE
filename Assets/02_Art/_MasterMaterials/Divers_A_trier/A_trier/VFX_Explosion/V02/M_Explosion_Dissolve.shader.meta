@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 4b6cec60c1e55f3499f9c5de0298037b
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _VFX_explosion: {fileID: 2800000, guid: 9570b15162643e44bb41ff06319728e0, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

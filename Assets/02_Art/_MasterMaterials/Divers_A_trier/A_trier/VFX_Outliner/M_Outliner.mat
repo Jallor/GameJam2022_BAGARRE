@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2451429833670332298
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Outliner
+  m_Shader: {fileID: 4800000, guid: 84c3e549709330a4cbf7989621d66845, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - TX_scan:
+        m_Texture: {fileID: 2800000, guid: 0fee6a88e3b02ef489d14759853a002d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FX_Pieces:
+        m_Texture: {fileID: 2800000, guid: f6f061d6d272a534cb72962408e29b22, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TX:
+        m_Texture: {fileID: 2800000, guid: 1b292aeefba260a48a2d17ee27d3a11a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TX_Distort:
+        m_Texture: {fileID: 2800000, guid: 2a81ea6a3e2e94843b47056dc9b6dd5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TX_VFX_Reflect:
+        m_Texture: {fileID: 2800000, guid: f6f061d6d272a534cb72962408e29b22, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TX_metalPiece_test:
+        m_Texture: {fileID: 2800000, guid: 1b292aeefba260a48a2d17ee27d3a11a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TX_scan:
+        m_Texture: {fileID: 2800000, guid: 0fee6a88e3b02ef489d14759853a002d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 2a81ea6a3e2e94843b47056dc9b6dd5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _01Hasbeentouched: 0
+    - _01emissive_int: 3
+    - _02Isattract: 0
+    - _02PlayerPos_Hardness: 0.75
+    - _02PlayerPos_radius: 8
+    - _02emissive_int: 3.65
+    - _03emissive_global: 0
+    - _03emissive_int: 2.65
+    - _03multiplyemissive_global: 0
+    - _04PiecesSpeedX: 0.8
+    - _04PiecesSpeedY: 0.1
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _Blend: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _Dissapear: 0.987
+    - _Dissapear1: 0.425
+    - _DoeverythingPlease: 0
+    - _DstBlend: 0
+    - _EmissiveAttract: 10
+    - _EmissiveColor01: 3
+    - _EmissiveFinal: 4.61
+    - _EnvironmentReflections: 1
+    - _Ffrffrfrfrloat1: 23.61
+    - _Float0: -0.5
+    - _Float1: 1
+    - _Float2: 0
+    - _Float3: 8.56
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _HasBeenTouch: 0
+    - _HasBeentouched: 0
+    - _Hasbeentouched: 0
+    - _IsAttract: 1
+    - _Isattract: 0
+    - _Isattract1: 0
+    - _MaskHardness: 100
+    - _MaskRadius: 11.22
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Scale: 2.13
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpeedX: 0.25
+    - _SpeedY: 1.5
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _TilesXY: 0.5
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    - _base: 3
+    - _beginnoise: 15
+    - _border_Y_Offset: -1.2
+    - _emissive_02_isactive: 0
+    - _emissive_global: 1
+    - _emissive_max_int: 2
+    - _emissive_min_int: 7
+    - _emissive_speed_flick: 3
+    - _emissivebase: 0
+    - _endnoise: 100
+    - _flickemissive_int: 3.5
+    - _flickemissive_max_int: 2
+    - _flickemissive_min_int: 7
+    - _flickemissive_speed: 3
+    - _frfr: 0.25
+    - _fullHighlight_emissive_Int: 10
+    - _gradientSharpness1: -0.7
+    - _gradient_Height1: 5.8
+    - _hardness: 0.25
+    - _int: 0.5
+    - _lerp: 1
+    - _lerpgetcoin: 0
+    - _m: -0.3
+    - _multiplyemissive_global: 0
+    - _radius: 5
+    - _scae: -1
+    - _scale: 1
+    - _scalenoiseend: 0.27
+    - _scan_Radius: 25
+    - _scan_Tiles: 2
+    - _scan_emissive_Int: 100
+    - _sizenoise: 0.024
+    - _sonar_emissive_Int: 30
+    - _speed: 3
+    - _speed_flick: 0
+    - _tresh: 1
+    - _warning_Radius: 3.5
+    - _x: 1
+    - _y: 1.5
+    m_Colors:
+    - _00color_base: {r: 1, g: 1, b: 1, a: 0}
+    - _01emissive_color: {r: 0.026315808, g: 1, b: 0, a: 0}
+    - _02emissive_color: {r: 0, g: 1, b: 0.9717826, a: 0}
+    - _03emissive_color: {r: 0.5647059, g: 1, b: 0.5529412, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0.035294294, g: 1, b: 0, a: 0}
+    - _ColorBase: {r: 1, g: 1, b: 1, a: 0}
+    - _ColorPiece: {r: 1, g: 0.794463, b: 0, a: 0}
+    - _ColorPiece1: {r: 1, g: 0.794463, b: 0, a: 0}
+    - _Colorbase: {r: 0.8959987, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Vector0: {r: -1, g: -1, b: 0, a: 0}
+    - _emissive_Color: {r: 0.03529429, g: 1, b: 0, a: 0}
+    - _emissive_color: {r: 0.03529429, g: 1, b: 0, a: 0}
+    - _emissive_color_02: {r: 0, g: 0.8746934, b: 1, a: 0}
+    - _emissive_color_base: {r: 0.03529429, g: 1, b: 0, a: 0}
+    - _scan_emissive_Color1: {r: 0, g: 0.44327876, b: 1, a: 0}
+    - _scan_emissive_ColorWarning_FullHightLight: {r: 0.22545156, g: 1, b: 0, a: 0}
+    - _scan_emissive_ColorWarning_Highlight__Details: {r: 0, g: 1, b: 0.4333019, a: 0}
+    - _scan_emissive_ColorWarning_Highlight__Details1: {r: 0, g: 1, b: 0.09019608,
+        a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6801461698324912355
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_VFX_Burst
+  m_Shader: {fileID: 4800000, guid: 41dd3fbf73bf77449800d2eba168ae0f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _1TX_base_texture:
+        m_Texture: {fileID: 2800000, guid: b895ecea225dd4540a48d6293e2070ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _1TX_base_texture1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _3TX_S_DEFORM:
+        m_Texture: {fileID: 2800000, guid: bdbe94d7623ec3940947b62544306f1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _3TX_S_DEFORM1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TX_S_DEFORM:
+        m_Texture: {fileID: 2800000, guid: bdbe94d7623ec3940947b62544306f1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TX_base_texture:
+        m_Texture: {fileID: 2800000, guid: b895ecea225dd4540a48d6293e2070ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TX_basicNoise:
+        m_Texture: {fileID: 2800000, guid: b895ecea225dd4540a48d6293e2070ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: bdbe94d7623ec3940947b62544306f1c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _04sharpness: 3
+    - _05exponent: 4.61
+    - _05multipy: 0.5
+    - _1GlobalSpeed: 0.5
+    - _1LighteningOpacity: 0.5
+    - _1LighteningVisibilty: 0.5
+    - _1Lighteningopacity: 0.5
+    - _3S_DEFORMmax: 0.4
+    - _3S_DEFORMmin: 0.2
+    - _4sharpness: 3
+    - _5Sphere_Opacity: 1
+    - _5Sphere_emissive_Int: 1
+    - _5Sphere_opacity: 1
+    - _5Spherescale: 1
+    - _5Spheresharpness: 3
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _Blend: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _Float0: 22.18
+    - _GlobalSpeed: 0.5
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _S_DEFORMmax: 0.4
+    - _S_DEFORMmin: 0.2
+    - _Scale: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed_X_Secondary1: 0.2
+    - _Speed_Y_Secondary1: 0.3
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _Tiles_X_Secondary1: 0.04
+    - _Tiles_Y_Secondary1: 0.01
+    - _WorkflowMode: 1
+    - _XY: 0.5
+    - _ZWrite: 1
+    - _base_sharpness: 0.85
+    - _circeint: 1
+    - _ddfdf: 2
+    - _deformint: 0
+    - _dots: 0.2
+    - _dsit: 1
+    - _eissive_int: 5
+    - _emissive_int: 1
+    - _emissive_treshold2: 5
+    - _emissivebase: 10
+    - _int: 1
+    - _max_deform_int: 0.4
+    - _min_deform_int: 0.2
+    - _noiseintensity: 0.15
+    - _opacitymulitply: 0.3
+    - _resharp: 1.355
+    - _resize: 0.35
+    - _scalenoise: 2.75
+    - _speed: 0.5
+    - _speeeee: 50
+    - _spherize: 3.5
+    - _tresh: 5
+    m_Colors:
+    - _2L_DEFORMspeedXYnoiseScaleNoiseInt: {r: 1, g: 2, b: 2.75, a: 0.15}
+    - _3S_DEFORMspeedXYtilesXY: {r: 0.2, g: 0.3, b: 0.04, a: 0.01}
+    - _4baseInttresholdintemissiveInt: {r: 15, g: 5, b: 10, a: 0}
+    - _4colorbase: {r: 0, g: 0.52156854, b: 1, a: 0}
+    - _4coloremissive: {r: 0.635294, g: 0.9411765, b: 1, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0.6367924, g: 0.9395195, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _L_DEFORMspeedXYnoiseScaleNoiseInt: {r: 1, g: 2, b: 2.75, a: 0.15}
+    - _Micro_DeformerSpeedXYTilesXY: {r: 0.2, g: 0.3, b: 0.04, a: 0.01}
+    - _S_DEFORMSpeedXYTilesXY: {r: 0.2, g: 0.3, b: 0.04, a: 0.01}
+    - _S_DEFORMspeedXYtilesXY: {r: 0.2, g: 0.3, b: 0.04, a: 0.01}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _apnner: {r: 3, g: 1, b: 0, a: 0}
+    - _baeseee: {r: 0, g: 0.523159, b: 1, a: 0}
+  m_BuildTextureStacks: []

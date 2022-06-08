@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: MF_GetPosWordToUV
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18000\n-1280;93;1280;650;1940.666;573.7366;1.239504;True;False\nNode;AmplifyShaderEditor.CommentaryNode;1;-1171.888,-214.393;Inherit;False;1014.062;506.7622;;5;7;5;4;2;0;VAR
+    - Get World Pos;1,0.5,0.9176471,1;0;0\nNode;AmplifyShaderEditor.DynamicAppendNode;2;-819.2698,-73.72271;Inherit;False;FLOAT2;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.DistanceOpNode;4;-569.9168,-72.85531;Inherit;False;2;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.DynamicAppendNode;5;-708.2949,138.4452;Inherit;False;FLOAT2;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.BreakToComponentsNode;9;-1083.638,-73.22968;Inherit;False;FLOAT3;1;0;FLOAT3;0,0,0;False;16;FLOAT;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4;FLOAT;5;FLOAT;6;FLOAT;7;FLOAT;8;FLOAT;9;FLOAT;10;FLOAT;11;FLOAT;12;FLOAT;13;FLOAT;14;FLOAT;15\nNode;AmplifyShaderEditor.WorldPosInputsNode;7;-1114.177,117.4084;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3\nNode;AmplifyShaderEditor.FunctionInput;8;-1276.799,-78.56311;Inherit;False;Position
+    in World;3;0;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionOutput;0;-370.197,-74.57822;Inherit;False;True;-1;Position
+    in UV space;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;2;0;9;0\nWireConnection;2;1;9;1\nWireConnection;4;0;2;0\nWireConnection;4;1;5;0\nWireConnection;5;0;7;1\nWireConnection;5;1;7;2\nWireConnection;9;0;8;0\nWireConnection;0;0;4;0\nASEEND*/\n//CHKSM=1FE7D25CFBC39D44BFCE547443139FB9687EDACF"
+  m_functionName: 
+  m_description: Only on X and Y
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 
+  m_previewPosition: 0
+  m_hidden: 0

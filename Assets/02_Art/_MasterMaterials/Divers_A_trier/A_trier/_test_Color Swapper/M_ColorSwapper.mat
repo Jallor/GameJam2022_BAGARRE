@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_ColorSwapper
+  m_Shader: {fileID: 4800000, guid: 4bc2705743eb9134ba7c55fdc6efef97, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 1dec99e62d279584590a443a0c9e2030, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask1:
+        m_Texture: {fileID: 2800000, guid: 59c3adc3942836b4aae3ba3837c70b42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 6073254419839604c81bc74a425cc4a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _Blend: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _Float0: 0.04
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _QueueOffset: 0
+    - _R_True_G_False: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Startclipvalue: 0.17
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    - _f: 0.001
+    - _fuzzy: 0.04
+    - _max: 0.3
+    - _min: 19.2
+    - _r: 1
+    - _range: 1
+    m_Colors:
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Color0: {r: 0.23529413, g: 0.23137257, b: 0.23529413, a: 0}
+    - _Color01: {r: 0.24528301, g: 0.13536845, b: 0.22696394, a: 0}
+    - _Color02: {r: 0.49790847, g: 0.5046168, b: 0.6320754, a: 0}
+    - _Color03: {r: 0.49056602, g: 0.44572905, b: 0.3494126, a: 0}
+    - _Color04: {r: 0.7657731, g: 1, b: 0.7216981, a: 0}
+    - _Color05: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 0}
+    - _Color1: {r: 0, g: 0.32549024, b: 1, a: 0}
+    - _Color3: {r: 0.2735849, g: 0.2000267, b: 0.25675786, a: 0}
+    - _Color4: {r: 0.5849056, g: 0.35039157, b: 0.57653016, a: 0}
+    - _Color5: {r: 0.75091267, g: 1, b: 0.3254717, a: 0}
+    - _Color6: {r: 0.2735849, g: 0, b: 0.2679136, a: 0}
+    - _Color7: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 0}
+    - _Color_Base01: {r: 1, g: 1, b: 1, a: 0}
+    - _Color_Base02: {r: 0.23529413, g: 0.23137257, b: 0.23529413, a: 0}
+    - _Color_Base03: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_Base04: {r: 0.23529413, g: 0.23137257, b: 0.23529413, a: 0}
+    - _Color_Base05: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_Base06: {r: 0.49411768, g: 0.49803925, b: 0.49411768, a: 0}
+    - _Color_Replace01: {r: 0, g: 0.6093898, b: 1, a: 0}
+    - _Color_Replace02: {r: 0.097588114, g: 0.4437847, b: 0.4811321, a: 0}
+    - _Color_Replace03: {r: 1, g: 0.32941177, b: 0, a: 0}
+    - _Color_Replace04: {r: 0, g: 1, b: 0.10000014, a: 0}
+    - _Color_Replace05: {r: 1, g: 0, b: 0, a: 0}
+    - _Color_Replace06: {r: 0, g: 0.9301295, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+--- !u!114 &1578972160883867797
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
