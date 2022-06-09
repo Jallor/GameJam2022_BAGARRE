@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Dungeon_A2_6
+  m_Script: {fileID: 11500000, guid: 0223da06b1734de4ba4cc1de96ef100e, type: 3}
+  m_Name: Forest
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 790609456, guid: 6b50a27b6701f754aa84113c1b1d433d, type: 3}
+  m_Sprite: {fileID: 1994112357, guid: 6b50a27b6701f754aa84113c1b1d433d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -31,6 +31,7 @@ MonoBehaviour:
     e31: 0
     e32: 0
     e33: 1
-  m_InstancedGameObject: {fileID: 0}
+  m_InstancedGameObject: {fileID: 3383122604933644293, guid: d9351b7a16159bd41a44f7b79f90ee66,
+    type: 3}
   m_Flags: 1
   m_ColliderType: 1

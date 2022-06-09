@@ -1,5 +1,7 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using NaughtyAttributes;
+using System;
 
 [RequireComponent(typeof(CharacterMovement))]
 public class CharacterManager : MonoBehaviour
@@ -56,6 +58,13 @@ public class CharacterManager : MonoBehaviour
         else
         {
         }
+    }
+
+    internal void StartFire()
+    {
+        Vector3Int tilePosition = TileMapManager.Inst.GetTileMap().WorldToCell(transform.position);
+        TileBase tile = TileMapManager.Inst.GetTileMap().GetTile(tilePosition);
+        print(tile);
     }
 
     public bool CanCharacterMove()

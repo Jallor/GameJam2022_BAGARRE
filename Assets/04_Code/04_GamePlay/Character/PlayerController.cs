@@ -31,9 +31,10 @@ public class PlayerController : CharacterController
         }
         _CharaManager.GiveMoveInput(newDir);
 
-        if (Input.GetKeyDown(KeyCode.T))
+        // Start Fire
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            // _CharaManager.TryPlaySkill();
+            _CharaManager.StartFire();
         }
     }
 }
